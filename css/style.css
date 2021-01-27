@@ -458,7 +458,7 @@ footer address {
   fill: #afb1b8;
   padding: 12px;
   border-radius: 50%;
-  transition-property: fill border-color;
+  transition-property: fill, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -482,7 +482,6 @@ footer address {
 .social-radius:focus {
   background-color: var(--accent-color);
   fill: var(--primary-white-color);
-  border-color: var(--accent-color);
 }
 .link-1,
 .link-2,
@@ -512,7 +511,7 @@ footer address {
   border-radius: 4px;
   border: 1px solid #afb1b8;
   fill: #afb1b8;
-  transition-property: fill border;
+  transition-property: fill, border;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -579,7 +578,7 @@ footer address {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .button-item {
-  transition-property: fill border;
+  transition-property: fill, border;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -595,7 +594,7 @@ footer address {
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.03em;
-  transition-property: background-color color box-shadow;
+  transition-property: background-color, color, box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
