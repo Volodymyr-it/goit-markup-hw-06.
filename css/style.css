@@ -737,3 +737,6 @@ footer address {
   margin-top: 6px;
   flex-direction: row;
 }
+textarea {
+  resize: none;
+}
