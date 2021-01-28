@@ -507,20 +507,21 @@
           </svg>
         </button>
 
-        <form class="js-speaker-form" action="">
-          <div>
-            <label for="name">Имя</label>
-            <input type="text" name="name" id="name" />
+        <form class=" form js-speaker-form" action="">
+          <h1>Оставьте свои данные, мы вам перезвоним</h1>
+          <div class="form-field">
+            <label class="form-label" for="name" ">Имя</label>
+            <input class="form-input" type="text" name="name" id="name"  />
           </div>
-          <div>
+          <div class="form-field">
             <label for="tel">Телефон</label>
             <input type="tel" name="tel" id="tel" />
           </div>
-          <div>
+          <div class="form-field">
             <label for="email">Почта</label>
             <input type="email" name="email" id="email" />
           </div>
-          <div>
+          <div class="form-field">
             <label for="comment">Коментарий</label>
             <textarea
               name=" comment"
@@ -534,11 +535,13 @@
             <input type="checkbox" name="policy" id="policy" />
             <label for="policy">
               Соглашаюсь с рассылкой и принимаю <a href="">Условия договора </a>
-            </label>
+            </label><button class="modal-submit" type="submit">Отправить</button>
           </div>
-          <button type="submit"></button>
+          <div>
+           
+          </div>
         </form>
-        <p></p>
+          
       </div>
     </div>
     <script src="./js/modal.js"></script>
