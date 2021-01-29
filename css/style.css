@@ -451,7 +451,10 @@ footer address {
 }
 .team-item {
   text-align: center;
+  border-radius: 0px 0px 4px 4px;
   background-color: var(--primary-white-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .social {
   display: flex;
@@ -466,7 +469,7 @@ footer address {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 28px 0 42px;
+  padding: 16px 32px 30px;
 }
 
 .social-radius:not(:last-child) {
@@ -623,13 +626,12 @@ footer address {
 .portfolio-items {
   display: flex;
   flex-wrap: wrap;
+  background-color: var(--primary-white-color);
 }
 .galeria-images {
   display: flex;
   align-items: center;
-
   width: 370px;
-  height: 404px;
   margin-right: 30px;
   margin-bottom: 30px;
 }
@@ -644,7 +646,6 @@ footer address {
 .galeria-images a:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-  border: 1px solid #eeeeee;
 }
 
 .galeria-images:nth-child(3n) {
@@ -654,8 +655,11 @@ footer address {
   margin-bottom: 0px;
 }
 .foto-discription {
+  width: 100%;
   padding: 20px 24px;
   position: relative;
+  background-color: var(--primary-white-color);
+  border: 1px solid #eeeeee;
 }
 .foto-discription h3 {
   margin-bottom: 4px;
@@ -676,6 +680,7 @@ footer address {
   font-size: 18px;
   line-height: 1.5;
   letter-spacing: 0.03em;
+  border: 1px solid #eeeeee;
   background-color: rgba(33, 150, 243, 0.9);
   color: var(--primary-white-color);
   transform: translateY(100%);
@@ -688,7 +693,7 @@ footer address {
   transform: translateY(0);
 
   opacity: 1;
-}
+}}
 
 /* modal+ backdrop */
 
@@ -732,13 +737,14 @@ footer address {
   width: 30px;
 }
 
-.backdrop button {
+.button-close {
   display: flex;
+  position: absolute;
   border-radius: 100%;
   padding: 6px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   margin-left: 476px;
-  margin-top: 6px;
+  
   flex-direction: row;
 }
 textarea {
@@ -761,7 +767,7 @@ textarea {
   flex-direction: column;
   margin-bottom: 10px;
 }
-s .form-field label {
+.form-field label {
   margin-bottom: 4px;
 }
 .form-field input {
@@ -774,11 +780,24 @@ s .form-field label {
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
-.modal-submit {
-  display: block;
-  outline: 1px solid black;
+.policy {
+  margin-top: 10px;
+  margin-right: 51px;
+}
+
+
+.button-form-submit {
+  letter-spacing: 0.06em; 
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
   width: 200px;
   height: 50px;
-  margin: 0;
-  padding: 0;
+  margin-left: 164px;
+  margin-top: 30px;
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  p
 }
