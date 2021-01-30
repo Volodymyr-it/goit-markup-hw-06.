@@ -693,7 +693,7 @@ footer address {
   transform: translateY(0);
 
   opacity: 1;
-}}
+}
 
 /* modal+ backdrop */
 
@@ -744,7 +744,7 @@ footer address {
   padding: 6px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   margin-left: 476px;
-  
+
   flex-direction: row;
 }
 textarea {
@@ -785,9 +785,8 @@ textarea {
   margin-right: 51px;
 }
 
-
 .button-form-submit {
-  letter-spacing: 0.06em; 
+  letter-spacing: 0.06em;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
@@ -799,5 +798,4 @@ textarea {
   color: var(--primary-white-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  p
 }
