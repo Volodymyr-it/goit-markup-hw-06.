@@ -200,6 +200,7 @@ footer {
   color: var(--primary-white-color);
   font-family: Raleway, sans-serif;
 }
+
 .footer-fedback a {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
@@ -223,8 +224,7 @@ footer address {
   margin-top: 72px;
 }
 .social-container h3 {
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -264,6 +264,81 @@ footer address {
 .social-item:not(:last-child) {
   margin-right: 10px;
 }
+.footer-label {
+  width: 570px;
+  height: 86px;
+  margin-top: 72px;
+  margin-left: 93px;
+  justify-content: center;
+}
+.footer-subscraibe {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+  letter-spacing: 0.03em;
+}
+.footer-input {
+  height: 50px;
+  width: 358px;
+  background-color: var(--dark-background-color);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  padding-left: 16px;
+}
+.button-footer-submit p {
+  padding-left: 25px;
+  padding-right: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1, 8;
+  display: flex;
+  letter-spacing: 0.06em;
+  top: 50%;
+}
+
+.form-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 570px;
+  padding-top: 20px;
+}
+.button-footer-submit {
+  position: relative;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  padding-top: 5px;
+  margin-left: 12px;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  border: 0;
+
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+  fill: var(--primary-white-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.footer-input-img svg {
+  position: absolute;
+  left: 148px;
+  top: 50%;
+  transform: translateY(-50%);
+  fill: var(--primary-white-color);
+}
+.footer-label .button-form-submit {
+  margin-left: 12px;
+}
+
 /* !!!index!!!*/
 
 /* main section */
@@ -856,6 +931,7 @@ div.text a {
 
 .button-form-submit {
   letter-spacing: 0.06em;
+
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
