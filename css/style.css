@@ -268,8 +268,8 @@ footer address {
   width: 570px;
   height: 86px;
   margin-top: 72px;
-  margin-left: 93px;
   justify-content: center;
+  margin-left: 93px;
 }
 .footer-subscraibe {
   font-weight: 700;
@@ -283,6 +283,7 @@ footer address {
 .footer-input {
   height: 50px;
   width: 358px;
+  color: rgba(255, 255, 255, 0.6);
   background-color: var(--dark-background-color);
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
@@ -795,8 +796,8 @@ footer address {
   position: absolute;
   top: 50%;
   left: 50%;
-  min-width: 528px;
-  min-height: 581px;
+  width: 528px;
+  height: 581px;
   margin-left: auto;
   margin-right: auto;
   padding: 40px;
@@ -819,6 +820,7 @@ footer address {
   border-radius: 100%;
   justify-content: center;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: var(--primary-white-color);
 }
 .button-close svg {
   margin: 6px;
@@ -831,6 +833,7 @@ footer address {
   width: 528px;
 }
 .form h1 {
+  width: 448px;
   font-weight: 700;
   font-size: 20px;
   line-height: 1.2;
@@ -859,10 +862,10 @@ footer address {
   top: 50%;
   transform: translateY(-50%);
 }
-.form-field input {
+.form-input {
   margin: 0;
   padding-left: 42px;
-  width: 100%;
+  width: 448px;
   border-radius: 4px;
   height: 40px;
   outline: none;
@@ -884,11 +887,19 @@ footer address {
   letter-spacing: 0.03em;
 }
 .textarea {
+  height: 120px;
+  width: 448px;
   resize: none;
+  padding: 12px 16px;
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
-}
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
 
+  color: rgba(117, 117, 117, 0.5);
+}
 .old-checkbox:checked ~ .checkbox-icon {
   background-color: var(--accent-color);
   background-origin: border-box;
@@ -939,7 +950,7 @@ footer address {
   line-height: 1.8;
   width: 200px;
   height: 50px;
-  margin-left: 164px;
+  margin-left: 124px;
   margin-top: 30px;
   border: 0;
   background-color: var(--accent-color);
