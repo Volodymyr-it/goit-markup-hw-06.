@@ -371,15 +371,17 @@ footer address {
 
 .main-section h1 {
   width: 696px;
-  color: var(--primary-white-color);
+  padding: 0;
+  margin: 0 auto;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
-  padding: 0;
-  align-items: center;
-  margin: 0 auto;
+  color: var(--primary-white-color);
 }
+
 /* order a service */
 .order-button {
   background-color: var(--accent-color);
@@ -887,7 +889,7 @@ footer address {
   border: 1px solid rgba(33, 33, 33, 0.2);
 }
 
-.old-checkbox:checked ~ .checkbox-icon svg {
+.old-checkbox:checked ~ .checkbox-icon {
   background-color: var(--accent-color);
   background-origin: border-box;
   border-color: var(--accent-color);
@@ -902,7 +904,7 @@ footer address {
 .checkbox {
   position: relative;
 }
-.checkbox-icon svg {
+.checkbox-icon {
   position: absolute;
   left: 13px;
   top: 50%;
@@ -915,7 +917,7 @@ footer address {
   fill: var(--primary-white-color);
 }
 
-div.text {
+.text {
   margin-top: 20px;
   margin-left: 36px;
   font-weight: 400;
@@ -924,7 +926,7 @@ div.text {
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
-div.text a {
+.text a {
   color: var(--accent-color);
   text-decoration: underline;
 }
