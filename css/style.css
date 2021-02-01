@@ -290,7 +290,7 @@ footer address {
   border-radius: 4px;
   padding-left: 16px;
 }
-.button-footer-submit p {
+.button-footer-submit {
   padding-left: 25px;
   padding-right: 10px;
   font-weight: 700;
@@ -328,7 +328,7 @@ footer address {
   border-radius: 4px;
 }
 
-.footer-input-img svg {
+.footer-input-img {
   position: absolute;
   left: 148px;
   top: 50%;

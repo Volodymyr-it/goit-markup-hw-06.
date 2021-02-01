@@ -490,28 +490,26 @@
           </ul>
         </div>
         <div class="footer-label">
-
-        </label>
-          <label for="footer-email">
-            <p class="footer-subscraibe">Подпишитесь на рассылку</p> 
-            <div class="form-footer">
-              <input class="footer-input" type="email" name="email" id="footer-email" placeholder="E-mail" />
-
-              <button class="button-footer-submit" type="submit">
-                <p> Подписаться </p>
-                <div class="footer-input-img">
-                  <svg width="24" height="24">
-                    <use
-                      href="./optim-svg/symbol-defs.svg#icon-icon-send"
-                    ></use>
-                  </svg>
-                </div>
-              </button>
-              </div>
+          <label class="footer-subscraibe" for="footer-email">
+            Подпишитесь на рассылку
+          </label>
+          <div class="form-footer">
+            <input
+              class="footer-input"
+              type="email"
+              name="email"
+              id="footer-email"
+              placeholder="E-mail"
+            />
+            <button class="button-footer-submit" type="button">
+              Подписаться
+              <svg class="footer-input-img" width="24" height="24">
+                <use href="./optim-svg/symbol-defs.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </div>
         </div>
-          
       </div>
-      
     </footer>
     <!-- modal+ backdrop -->
 
@@ -523,59 +521,43 @@
           </svg>
         </button>
 
-        <form class="form js-speaker-form" action="">
+        <form class="form js-speaker-form" action=" adsad">
           <h1>Оставьте свои данные, мы вам перезвоним</h1>
           <div class="form-field">
-            <label for="name">
-              <div class="name-label">Имя</div>
-              <div class="input-container">
-                <input class="form-input" type="text" name="name" id="name" />
+            <label class="name-label" for="name"> Имя</label>
+            <div class="input-container">
+              <input class="form-input" type="text" name="name" id="name" />
+              <svg class="input-img" width="12" height="12">
+                <use href="./optim-svg/symbol-defs.svg#icon-man-modal"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="form-field">
+            <label class="name-label" for="tel">Телефон </label>
 
-                <div class="input-img">
-                  <svg width="12" height="12">
-                    <use
-                      href="./optim-svg/symbol-defs.svg#icon-man-modal"
-                    ></use>
-                  </svg>
-                </div>
+            <div class="input-container">
+              <input type="tel" name="tel" id="tel" />
+              <div class="input-img">
+                <svg width="13" height="13">
+                  <use href="./optim-svg/symbol-defs.svg#icon-tel-modal"></use>
+                </svg>
               </div>
-            </label>
+            </div>
           </div>
           <div class="form-field">
-            <label for="tel">
-              <div class="name-label">Телефон</div>
-              <div class="input-container">
-                <input type="tel" name="tel" id="tel" />
-                <div class="input-img">
-                  <svg width="13" height="13">
-                    <use
-                      href="./optim-svg/symbol-defs.svg#icon-tel-modal"
-                    ></use>
-                  </svg>
-                </div>
-              </div>
-            </label>
-          </div>
-          <div class="form-field">
-            <label for="email">
-              <div class="name-label">Почта</div>
-              <div class="input-container">
-                <input type="email" name="email" id="email" />
+            <label class="name-label" for="email">Почта</label>
+            <div class="input-container">
+              <input type="email" name="email" id="email" />
 
-                <div class="input-img">
-                  <svg width="15" height="12">
-                    <use
-                      href="./optim-svg/symbol-defs.svg#icon-mail-modal"
-                    ></use>
-                  </svg>
-                </div>
+              <div class="input-img">
+                <svg width="15" height="12">
+                  <use href="./optim-svg/symbol-defs.svg#icon-mail-modal"></use>
+                </svg>
               </div>
-            </label>
+            </div>
           </div>
           <div class="form-field">
-            <label for="comment">
-              <div class="name-label">Коментарий</div></label
-            >
+            <label class="name-label" for="comment"> Коментарий </label>
             <textarea
               class="textarea"
               name="comment"
