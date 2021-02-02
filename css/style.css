@@ -903,15 +903,13 @@ footer address {
 
   color: rgba(117, 117, 117, 0.5);
 }
-
+.old-checkbox:focus ~ .checkbox-icon,
 .old-checkbox:checked ~ .checkbox-icon {
   background-color: var(--accent-color);
   background-origin: border-box;
   border-color: var(--accent-color);
 }
-.old-checkbox:focus {
-  color: var(--accent-color);
-  fill: var(--accent-color);
+.button-form-submit:focus {
 }
 .old-checkbox {
   position: absolute;
